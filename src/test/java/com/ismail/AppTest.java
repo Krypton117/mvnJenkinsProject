@@ -4,7 +4,7 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
-/** a
+/**
  * Unit test for simple App.
  */
 public class AppTest 
@@ -31,8 +31,12 @@ public class AppTest
     /**
      * Rigourous Test :-)
      */
+
     public void testApp()
     {
-        assertTrue( true );
+        App app = new App();
+        assertEquals(1, app.printString("Hai"));
     }
+
+
 }
